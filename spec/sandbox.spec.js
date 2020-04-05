@@ -1,5 +1,6 @@
 import { chromium } from "playwright";
-import { expect } from "chai";
+// eslint-disable-next-line no-unused-vars
+const should = require("chai").should();
 
 let page;
 let browser;
@@ -26,9 +27,11 @@ describe("Sandbox", () => {
 
   it("should be on sandbox", async () => {
     await page.waitFor("h1");
+
+    const pageTitle = await page.title();
     const title = await page.$eval("h1", (el) => el.textContent);
 
-    expect(await page.title()).to.equal("Sandbox");
-    expect(title).to.equal("Sandbox");
+    pageTitle.should.eql("Sandbox");
+    title.should.eql("Sandbox");
   });
 });
