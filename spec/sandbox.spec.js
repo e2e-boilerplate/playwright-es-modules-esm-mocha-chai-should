@@ -1,6 +1,8 @@
 import { chromium } from "playwright";
 // eslint-disable-next-line no-unused-vars
-const should = require("chai").should();
+import { should } from "chai";
+
+should();
 
 let page;
 let browser;
