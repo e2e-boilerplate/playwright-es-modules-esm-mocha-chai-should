@@ -1,7 +1,7 @@
 | referrer                                                                           | count | uniques |
 | :--------------------------------------------------------------------------------- | :---- | :------ |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-should                       | 4     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-should/actions               | 3     | 1       |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-should                       | 5     | 1       |
+| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-should/actions               | 4     | 1       |
 | /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-should/actions/runs/72253508 | 1     | 1       |
 | /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-should/graphs/traffic        | 1     | 1       |
 | /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-should/pulse                 | 1     | 1       |
