@@ -29,17 +29,18 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
-    "e2e",
-    "e2e tests",
     "es modules",
     "esm",
-    "example",
-    "integration test",
     "mocha",
     "playwright",
-    "should"
+    "should",
+    "e2e",
+    "e2e tests",
+    "boilerplate",
+    "integration test",
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
